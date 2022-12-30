@@ -10,3 +10,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+button {
+  margin: 3px;
+  font-size: 16px;
+}
+
+.all {
+  margin-top: 15vh;
+  text-align: center;
+}
