@@ -8,10 +8,8 @@ const app = express();
 app.use(express.json());
 
 app.use('/api', routes);
-app.use('/api', routes);
 
 app.post("/", (req, res) => {
-    console.log(req.body)
     res.status(200).json('good')
 })
 
